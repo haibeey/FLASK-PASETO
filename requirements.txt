@@ -1,0 +1,3 @@
+flask
+paseto>=0.0.5
+pysodium>=0.7.5
