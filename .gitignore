@@ -4,3 +4,4 @@
 Flask_PASETO.egg*
 dist
 build
+.tox

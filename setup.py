@@ -1,16 +1,15 @@
 from setuptools import find_packages, setup
 import os 
 
-import flask_paseto
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(basedir, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
     
 setup(
-    name="Flask-PASETO",
+    name="Flask-Paseto",
     packages=find_packages(),
-    version="0.0.4",
+    version="0.0.5",
     include_package_data=True,
     description="Paseto integration for flask",
     author="Akerele Abraham",
@@ -37,9 +36,6 @@ setup(
         'Intended Audience :: Developers',    
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',  
-        'Programming Language :: Python :: 3', 
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
   ],
