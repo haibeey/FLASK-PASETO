@@ -6,7 +6,6 @@ from flask import current_app, request, jsonify, _request_ctx_stack
 from .local_paseto import create_access_token,decode_token,get_paseto_claim
 from .public_paseto import create_access_token_public,decode_token_public,get_paseto_claim_public
 
-__version__ = '0.0.1'
 
 logger = logging.getLogger(__name__)
 
