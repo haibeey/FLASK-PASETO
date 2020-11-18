@@ -1,8 +1,8 @@
 # FLASK-PASETO
-#### FLASK-PASETO adds basic support for [paseto](https://github.com/josharian/paseto) v2 to your Flask app.
+#### FLASK-PASETO adds basic support for [PASETO](https://github.com/paragonie/paseto) v2 to your Flask app.
 
 ### Installation 
-Flask-Paseto relies on [paseto](https://github.com/josharian/paseto) which in turns relies on pysodium.
+Flask-Paseto relies on [paseto](https://github.com/rlittlefield/pypaseto) which in turns relies on [pysodium](https://github.com/stef/pysodium).
 pysoduim is a wrapper for the popular [libsoduim](https://github.com/jedisct1/libsodium) cryptography library.
 This [guide](https://py-ipv8.readthedocs.io/en/latest/preliminaries/install_libsodium/) shows how to install libsodium on mac and windows.
 on linux libsodium could be install using ```sudo apt-get install -y libsodium-dev``` or ```yum install libsodium``` depending on your linux distribution.
